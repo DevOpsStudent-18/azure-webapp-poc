@@ -4,6 +4,7 @@ name: Build and Deploy - Separate (Alternative)
 # Use this if you prefer separate deployments instead of combined deployment
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
